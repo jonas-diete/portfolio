@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Jonas Diete - Aspiring Software Developer</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"/>
+		<link rel="icon" type="image/x-icon" href="favicon.ico" />
+		<script>
+			document.addEventListener('DOMContentLoaded', function(){
+				document.getElementById('menu-btn').addEventListener('click', function() {
+					if (document.getElementById('navigation').style.top == '0px') {
+						document.getElementById('navigation').style.top = '-380px';
+						document.getElementById('extra-space').style.height = '0';
+						document.getElementById('menu-btn').src = 'images/menu-btn.png';
+					}
+					else {
+						document.getElementById('navigation').style.top = '0px';
+						document.getElementById('extra-space').style.height = '380px';
+						document.getElementById('menu-btn').src = 'images/menu-x.png';
+					}
+					
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		<header>
+			<div id="extra-space"></div>
+			<nav id="navigation">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="story.html">My Story</a></li>
+					<li><a href="" class="selected">Times Table Coach</a></li>
+					<li><a href="tutor.html">Tutor Website</a></li>
+					<li><a href="skills.html">Skills</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<div id="banner">
+				<div id="title">
+					<h1>Jonas Diete</h1>
+					<h2>Aspiring Software Developer</h2>
+				</div>
+				<div id="menu-btn-container">
+					<img src="images/menu-btn.png" alt="menu button" id="menu-btn">
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section>
+				<div class="center">
+					<div class="centeralign">
+					<h3>TIMES TABLE COACH</h3>
+					<p>My game Times Table Coach helps children learn their multiplication tables in a fun but effective way.</p>
+					<p>Click on the picture to try it out.</p>
+						<a href="https://ttcoach.herokuapp.com" target="_blank" id="ttc_link"><img src="images/ttc_logo.png" alt="times table coach logo"></a>
+					</div>
+					<p>
+						I built it October-December 2021 as a final project for Harvard University's online course CS50, using Flask (a python framework), JavaScript, HTML and CSS.
+					</p>
+					<div class="centeralign">
+						<iframe src="https://www.youtube.com/embed/Sw7LIZK6b_Y "></iframe>
+					</div>
+					<p>
+						I learned lots when programming this game. It uses GitHub APIs to save the user data for logins, progress in earning medals and in learning the multiplication facts on GitHub. <br><br>
+						I had to write lots of code in python (using the flask framework) and JavaScript (especially for the test and practise screens). <br><br>
+						I optimised the game for computer and mobile screens, which required lots of CSS knowledge.<br><br>
+						The game is hosted on Heroku, which required the use of git and correct implementation details so Heroku can run the app successfully.<br>
+					</p>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			&copy 2022 design and programming by Jonas Diete
+		</footer>
+	</body>
+
+</html>

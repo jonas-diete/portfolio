@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Jonas Diete - Aspiring Software Developer</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"/>
+		<link rel="icon" type="image/x-icon" href="favicon.ico" />
+		<script>
+			document.addEventListener('DOMContentLoaded', function(){
+				document.getElementById('menu-btn').addEventListener('click', function() {
+					if (document.getElementById('navigation').style.top == '0px') {
+						document.getElementById('navigation').style.top = '-380px';
+						document.getElementById('extra-space').style.height = '0';
+						document.getElementById('menu-btn').src = 'images/menu-btn.png';
+					}
+					else {
+						document.getElementById('navigation').style.top = '0px';
+						document.getElementById('extra-space').style.height = '380px';
+						document.getElementById('menu-btn').src = 'images/menu-x.png';
+					}
+					
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		<header>
+			<div id="extra-space"></div>
+			<nav id="navigation">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="story.html">My Story</a></li>
+					<li><a href="ttcoach.html">Times Table Coach</a></li>
+					<li><a href="tutor.html">Tutor Website</a></li>
+					<li><a href="" class="selected">Skills</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<div id="banner">
+				<div id="title">
+					<h1>Jonas Diete</h1>
+					<h2>Aspiring Software Developer</h2>
+				</div>
+				<div id="menu-btn-container">
+					<img src="images/menu-btn.png" alt="menu button" id="menu-btn">
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section>
+				<h3>MY PROGRAMMING SKILLS</h3>
+				<div class="paragraph">
+					<div class="knowledge">
+						<div class="underlined">Good Knowledge</div>
+						<ul>
+							<li>HTML5</li>
+							<li>CSS3</li>
+							<li>Python3</li>
+							<li>Flask</li>
+						</ul>
+					</div>
+					<div class="knowledge">
+						<div class="underlined">Some Knowledge</div>
+						<ul>
+							<li>JavaScript</li>
+							<li>SLQ</li>
+							<li>C</li>
+						</ul>
+					</div>
+				</div>
+				<div class="center">
+					<div class="underlined">Coding Qualifications</div>
+					<ul>
+						<li><a href="https://courses.edx.org/certificates/1c38ff9a69504f35ac86a53d704b3564" target="_blank">Harvard University's CS50x Introduction to Computer Science</a> - completed December 2021</li>
+						<li>Python 3 course on Codecademy - Completed April 2021</li>
+						<li>HTML and CSS courses on Codecademy - Completed February 2021</li>
+					</ul>
+				</div>	
+			</section>
+		</main>
+
+		<footer>
+			&copy 2022 design and programming by Jonas Diete
+		</footer>
+	</body>
+
+</html>
