@@ -290,6 +290,10 @@ footer {
 	h2 {
 		font-size: 18px;
 	}
+
+	#portrait {
+		width: 250px;
+	}
 }
 
 @media only screen and (max-width: 370px) {
