@@ -193,6 +193,12 @@ p {
 	margin: 20px;
 }
 
+#projects-table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px 25px;
+}
+
 footer {
 	font-size: 14px;
 	background-color: #000728;
