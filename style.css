@@ -160,6 +160,13 @@ iframe {
 	text-align: center;
 }
 
+.skills {
+  color: orange;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+}
+
 ul {
 	padding: 5px 20px 20px 20px; 
 	margin: 5px 20px 20px 20px;;
@@ -177,18 +184,13 @@ p {
 	margin: 20px;
 }
 
-.paragraph p, .paragraph div {
+.paragraph p {
 	display: inline-block;
 	vertical-align: top;
 	text-align: left;
 }
 
-.knowledge {
-	width: 210px;
-	margin: 10px auto;
-}
-
-.underlined {
+.bold {
 	font-weight: bold;
 	margin: 20px;
 }
