@@ -7,6 +7,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"/>
+    <meta charset="UTF-8"
 		<link rel="icon" type="image/x-icon" href="favicon.ico" />
 		<script>
 			document.addEventListener('DOMContentLoaded', function(){
@@ -35,7 +36,7 @@
 					<li><a href="index.html">Home</a></li>
 					<li><a href="story.html">My Story</a></li>
 					<li><a href="ttcoach.html">Times Table Coach</a></li>
-					<li><a href="" class="selected">Tutor Website</a></li>
+					<li><a href="" class="selected">AceBook</a></li>
 					<li><a href="skills.html">Skills</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
@@ -54,18 +55,26 @@
 		<main>
 			<section>
 				<div class="center">
-					<p>In March 2022 I built a website to advertise my qualities as Online German Tutor.</p>
+          <br>
+
+          <h2>AceBook</h2>
+					<p>During the Makers Course I built this monster-themed &#128050; social media platform as a team project with 5 other developers.</p>
 					<div class="btn-container">
-						<a class="btn" href="https://germanteacher.herokuapp.com" target="_blank">Visit my Tutor Website</a>
+						<a class="btn" href="https://monsters-inc-acebook.herokuapp.com/" target="_blank">Visit AceBook</a><br><br> Sign up as a new user and post something on our wall!
 					</div>
-					<p>I built this website from zero, using my knowledge of HTML, CSS and JavaScript that I gained from CS50x and codecademy's front-end-engineer path.</p>
 					<br>
-					<h3>Features include:</h3>
+          <h3>Screenshots</h3>
+          <img src="./images/screenshot1.jpg" alt="acebook screenshot 1" class="screenshot">
+          <img src="./images/screenshot2.jpg" alt="acebook screenshot 2" class="screenshot">
+					<h3>It uses:</h3>
 					<ul>
-						<li>The website is fully responsive. I used lots of @media-rules with CSS to achieve a different layout for mobile or tablet screens (the same applies for this portfolio website).</li>
-						<li>It features a timetable of my availability including a timezone calculator, which I programmed using JavaScript.</li>
-						<li>You can send me a message via HTML forms which are then getting processed via flask. I learned how to incorporate Mailgun to securely receive an email (without my email address being displayed to protect against phishing).</li>
-						<li>I learned how to use CSS transitions to animate the menu bar sliding in when the website is viewed on mobile devices (also on this portfolio page).</li>
+						<li>Express.js - web framework for Node.js.</li>
+						<li>Nodemon to reload the server automatically.</li>
+						<li>Handlebars to render view templates.</li>
+						<li>Mongoose to model objects in MongoDB.</li>
+            <li>ESLint for linting.</li>
+            <li>Jest for testing.</li>
+            <li>Cypress for end-to-end testing.</li>
 					</ul>
 				</div>			
 				<br>

@@ -216,6 +216,10 @@ th {
   margin: 0 auto;
 }
 
+.screenshot {
+  width: 100%;
+}
+
 footer {
 	font-size: 14px;
 	background-color: #000728;
