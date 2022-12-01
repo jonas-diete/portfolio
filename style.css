@@ -78,8 +78,8 @@ a:hover, a:active {
 
 nav {
 	display: flex;
-  	align-items: center;
-  	background-color: black;
+  align-items: center;
+  background-color: black;
 	font-family: 'Exo', Helvetica, sans-serif;
 	font-size: 20px;
 	font-weight: 700;
@@ -92,9 +92,9 @@ nav a {
 }
 
 nav a:hover, nav a:active {
-	background-color: #474747;
+	background-color: #01261d;
 	text-decoration: none;
-	border: 2px solid #474747;
+	border: 2px solid #01261d;
 }
 
 nav ul {
@@ -131,7 +131,7 @@ a.selected:hover, a.selected:active {
 }
 
 section {
-	background-color: #474747;
+	background-color: #01261d;
 	padding: 20px 0;
 	line-height: 28px;
 }
@@ -201,9 +201,14 @@ p {
 }
 
 #projects-table, th, td {
-  border: 2px solid black;
+  border: 2px solid #000728;
   border-collapse: collapse;
   padding: 10px 25px;
+}
+
+th {
+  background-color: #000728;
+  border: 2px solid #01261d;
 }
 
 #projects-table, .projects-paragraph {
