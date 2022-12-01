@@ -193,10 +193,20 @@ p {
 	margin: 20px;
 }
 
+.spaces-before {
+  text-align: center;
+  margin: 0 auto 10px auto;
+}
+
 #projects-table, th, td {
   border: 2px solid black;
   border-collapse: collapse;
   padding: 10px 25px;
+}
+
+#projects-table, .projects-paragraph {
+  width: 950px;
+  margin: 0 auto;
 }
 
 footer {
@@ -212,6 +222,15 @@ footer {
 	nav a {
 		padding: 10px 15px;
 	}
+
+  #projects-table, .projects-paragraph {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  th, td {
+    padding: 5px 15px;
+  }
 }
 
 @media only screen and (max-width: 875px) {
@@ -239,6 +258,11 @@ footer {
 	h2 {
 		font-size: 24px;
 	}
+
+  #projects-table, .projects-paragraph {
+    width: 95%;
+    font-size: 16px;
+  }
 }
 
 @media only screen and (max-width: 700px) {
