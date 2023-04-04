@@ -136,12 +136,16 @@ a.selected:hover, a.selected:active {
 
 .tech-list {
 	font-family: 'Rockwell', 'Bookman Old Style', serif;
+	color: #7a8bdf;
+	font-size: 26px;
 	text-align: center;
 }
 
+.tech-list div {
+	padding: 5px;
+}
+
 .tech-item {
-	color: #7a8bdf;
-	font-size: 26px;
 	display: inline-block;
 	padding: 10px;
 }
@@ -174,13 +178,6 @@ iframe {
 
 .paragraph {
 	text-align: center;
-}
-
-.skills {
-  color: #7a8bdf;
-  font-size: 20px;
-  letter-spacing: 1.5px;
-  font-weight: bold;
 }
 
 ul {
