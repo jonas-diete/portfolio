@@ -134,6 +134,18 @@ a.selected:hover, a.selected:active {
 	margin: 20px 0;
 }
 
+.tech-list {
+	font-family: 'Rockwell', 'Bookman Old Style', serif;
+	text-align: center;
+}
+
+.tech-item {
+	color: #7a8bdf;
+	font-size: 26px;
+	display: inline-block;
+	padding: 10px;
+}
+
 section {
 	background-color: #01261d;
 	padding: 20px 0;
