@@ -217,6 +217,7 @@ p {
   border: 1px solid #5169db;
   border-collapse: collapse;
   padding: 10px 25px;
+	text-align: center;
 }
 
 th {
