@@ -156,7 +156,7 @@ a.selected:hover, a.selected:active {
 }
 
 section {
-	background-image: linear-gradient(to bottom, rgb(0, 36, 16), rgb(0, 112, 60));
+	background-image: linear-gradient(to bottom, rgb(0, 36, 16), rgb(0, 82, 44));
 	/* background-color: #01261d; */
 	padding: 20px 0;
 	line-height: 28px;
